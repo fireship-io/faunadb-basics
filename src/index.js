@@ -4,6 +4,7 @@ const faunadb = require('faunadb');
 const client = new faunadb.Client({ secret: 'YOUR-KEY' })
 
 const {
+    Ref,
     Paginate,
     Get,
     Match,
